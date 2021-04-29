@@ -26,7 +26,7 @@ class Rules extends Component {
                 <div className="row">
                     <div className="col-12" dangerouslySetInnerHTML={{ __html: formatDiscoHook(RULES.content) }} />
                 </div>
-                { RULES.embeds.map(e => <div className="row">
+                { RULES.embeds.map((e, i) => <div className="row" key={i}>
                     <div className="col-12">
                         <h3>{ e.title }</h3>
                     </div>
