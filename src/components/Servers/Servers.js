@@ -11,7 +11,7 @@ class Servers extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    { SERVERS.map((s, i) => <div className="col-4" key={i}>
+                    { SERVERS.map((s, i) => <div className="col-sm col-sm-4" key={i}>
                         <div className="card server">
                             <div className="card-header server__tag">
                                 { s.id }
