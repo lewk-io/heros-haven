@@ -1,0 +1,18 @@
+.monetization {
+    margin-top: $padding;
+    opacity: 1;
+
+    &__header {
+        color: $textColour;
+        margin: 0;
+        padding: $smallFontSize;
+    }
+
+    &__body {
+        padding: $smallFontSize ($smallFontSize * 2.5);
+    }
+}
+
+.server-rules {
+    margin-top: $padding;
+}

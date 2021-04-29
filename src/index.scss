@@ -3,9 +3,29 @@ $smallHeader: 1rem;
 $smallFontSize: 0.5rem;
 
 $lightGrey: #7b868a;
+$black: #212529;
 
+$textColour: $black;
+
+$padding: 30px;
+
+@import './components/Rules/Rules.scss';
 @import './components/Servers/Servers.scss';
 
 body {
+    color: $textColour;
     font-size: $bodyFontSize;
+    padding-bottom: $padding;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+
+    .nav-item {
+        padding: $smallFontSize !important;
+    }
+}
+
+.toast {
+    max-width: 100% !important;
 }
