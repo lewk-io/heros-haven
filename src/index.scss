@@ -1,0 +1,11 @@
+$bodyFontSize: 0.8rem;
+$smallHeader: 1rem;
+$smallFontSize: 0.5rem;
+
+$lightGrey: #7b868a;
+
+@import './components/Servers/Servers.scss';
+
+body {
+    font-size: $bodyFontSize;
+}

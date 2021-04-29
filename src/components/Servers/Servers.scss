@@ -1,0 +1,19 @@
+.server {
+    margin-bottom: 30px;
+
+    &__tag {
+        color: $lightGrey;
+        font-size: $smallFontSize;
+        font-weight: bold;
+        text-align: right;
+        padding: $smallFontSize / 2;
+    }
+
+    &__header {
+        font-size: 1rem;
+    }
+
+    iframe {
+        height: 280px;
+    }
+}
