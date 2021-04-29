@@ -8,10 +8,10 @@ class Header extends Component {
                     <a href="/" className="navbar-brand">Hero's Haven DayZ</a>
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item">
-                            <a className="nav-link" href="/rules#server-rules">Server Rules</a>
+                            <a className="nav-link" href="rules#server-rules">Server Rules</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/rules#monetization">Monetization</a>
+                            <a className="nav-link" href="rules#monetization">Monetization</a>
                         </li>
                     </ul>
                 </div>
