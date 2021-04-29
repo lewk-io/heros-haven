@@ -1,5 +1,7 @@
-.monetization {
-    margin-top: $padding;
+.monetization,
+.server-rules {
+    background: $white;
+    margin: $padding 0 $padding * 5;
     opacity: 1;
 
     &__header {
@@ -11,8 +13,14 @@
     &__body {
         padding: $smallFontSize ($smallFontSize * 2.5);
     }
-}
 
-.server-rules {
-    margin-top: $padding;
+    h3 {
+        font-size: $mediumFontSize;
+        letter-spacing: $smallFontSize / 2;
+        text-transform: capitalize;
+        border-top: 1px solid $lightGrey;
+        border-bottom: 1px solid $lightGrey;
+        margin: $largeFontSize 0 $smallFontSize;
+        padding: $smallFontSize 0;
+    }
 }

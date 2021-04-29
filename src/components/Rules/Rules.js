@@ -3,28 +3,26 @@ import { RULES } from '../../constants/monetization';
 import { formatDiscoHook } from '../../helpers/index';
 
 class Rules extends Component {
-    constructor(props) {
-        super(props);
-        this.monetization = React.createRef();
-        this.serverRules = React.createRef();
-    }
-
     render() {
         return (
             <div className="container">
                 <div className="row">
-                    <div className="col-sm col-sm-8">
-                        <div className="server-rules" ref={this.serverRules}>
-                            <h2>Server rules:<a id="server-rules"></a></h2>
-                            <div dangerouslySetInnerHTML={{ __html: formatDiscoHook(RULES.content) }} />
-                            { RULES.embeds.map((e, i) => <div key={i}>
-                                    <h3>{ e.title }</h3>
-                                    <div dangerouslySetInnerHTML={{ __html: formatDiscoHook(e.description) }} />
-                            </div>) }
+                    <div className="col-sm col-sm-8 ">
+                        <div className="toast server-rules">
+                            <div className="toast-header">
+                                <h2 className="server-rules__header">Server rules:<a id="server-rules"></a></h2>
+                            </div>
+                            <div className="toast-body">
+                                <div dangerouslySetInnerHTML={{ __html: formatDiscoHook(RULES.content) }} />
+                                { RULES.embeds.map((e, i) => <div key={i}>
+                                        <h3>{ e.title }</h3>
+                                        <div dangerouslySetInnerHTML={{ __html: formatDiscoHook(e.description) }} />
+                                </div>) }
+                            </div>
                         </div>
                     </div>
                     <div className="col-sm col-sm-4">
-                        <div className="toast monetization" ref={this.monetization}>
+                        <div className="toast monetization">
                             <div className="toast-header">
                                 <h2 className="monetization__header">Monetization:<a id="monetization"></a></h2>
                             </div>

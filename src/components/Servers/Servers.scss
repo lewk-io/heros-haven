@@ -1,8 +1,17 @@
 .server {
-    margin-bottom: $padding;
+    margin-bottom: $padding * 5;
+
+    &-header {
+        color: $white;
+        font-size: $largeFontSize;
+        letter-spacing: $smallFontSize;
+        text-align: center;
+        text-transform: uppercase;
+        padding: $largeFontSize;
+    }
 
     &__tag {
-        color: $lightGrey;
+        color: $grey;
         font-size: $smallFontSize;
         font-weight: bold;
         text-align: right;

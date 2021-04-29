@@ -7,7 +7,7 @@ class Servers extends Component {
             <div className="container">
                 <div className="row">
                     <div className="col-12">
-                        <h1>Hero's Haven DayZ Servers</h1>
+                        <h1 className="server-header">Hero's Haven DayZ Servers</h1>
                     </div>
                 </div>
                 <div className="row">
