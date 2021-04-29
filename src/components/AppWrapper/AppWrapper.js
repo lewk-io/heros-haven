@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import Header from '../Header/Header';
 import Servers from '../Servers/Servers';
 import Rules from '../Rules/Rules';
+import style from '../../index.scss';
 
 class AppWrapper extends Component {
     render() {
