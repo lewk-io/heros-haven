@@ -1,0 +1,10 @@
+.server-card {
+    &-mods {
+        background: red;
+        ul {
+            li {
+                float: left
+            }
+        }
+    }
+}
