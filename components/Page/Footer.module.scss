@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.footer {
+    background-color: #05080a;
+    margin: $padding * 4 0 0;
+    padding: $padding * 2 0;
+
+    .nav {
+        &__item {
+            > a {
+                text-decoration: none;
+            }
+        }
+    }
+}

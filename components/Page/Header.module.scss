@@ -1,0 +1,47 @@
+@import '../../styles/variables.scss';
+
+.header {
+    margin-bottom: 10vh;
+
+    &-logo {
+        padding: $padding * 0.5;
+
+        &-image {
+            float: left;
+            margin-right: $padding * 0.5;
+        }
+
+        &::after {
+            clear: both;
+            content: '';
+            display: block;
+        }
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 33vh;
+        background-image: url('../../images/HH_Chernarus_Loading_Screen.jpg');
+        background-position: center;
+    }
+
+    .nav {
+        text-align: right;
+
+        &-container {
+
+        }
+
+        &__item {
+            display: inline-block;
+            margin: 0 $padding * 0.5;
+
+            > a {
+                text-decoration: none;
+            }
+        }
+    }
+}

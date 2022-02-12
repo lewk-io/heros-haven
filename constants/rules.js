@@ -1,0 +1,153 @@
+export const rules = [
+    {
+        "CategoryName": "You can also find the rules on discord.gg/hhdayz",
+        "Rules": []
+    },
+    {
+        "CategoryName": "General Rules",
+        "Rules": [
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.1 | English only in chat."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.2 | No disrespecting staff."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.3 | No cheating, hacking or exploiting."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.4 | No toxicity."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.5 | No meta gaming.<br/> This means no giving or using outside information:<br/> 1.5a | No disclosing other players positions.<br/> 1.5b | No stream sniping."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.6 | No combat logging."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.7 | Max online group size of 8.<br/> You can create alliances with other groups. However, you must follow these rules:<br/> 1.7a | No raiding, defending or roaming in a group larger than 8.<br/> 1.7b | No sharing bases, base codes or allowing other groups inside your base.<br/> 1.7c | Allied bases must not be closer than 3km from each other.<br/> 1.7d | Avoid meeting at bases. You should always try to meet at a mutual area where possible."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.8 | Steam game or VAC bans.<br/> If you have a Steam game or VAC ban, you must follow these rules:<br/> 1.8a | If you have 1 Steam game or VAC ban it must be older than 182 days.<br/> 1.8b | If you have 2 or more Steam game or VAC bans they must be over 1 year old.<br/> Any player with a Steam game or VAC ban will be treated on a case-by-case basis."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.9 | Steam account age.<br/> Your Steam account must be a certain age - this age will change depending on the current rate of attempted hackers at the time."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "1.10 |  1 account per player.<br/> No using multiple accounts. This is considered an exploit."
+            }
+        ]
+    },
+    {
+        "CategoryName": "Base Rules",
+        "Rules": [
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.1 | 1 flag/base per group."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.2 | No placing a flag without building a base.<br/> If you place a flag, you must then build a base there. Any flags found without a base will be removed."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.3 | No removing your flag from your base.<br/>           Any bases without a flag will be removed. Bases will also decay quickly without a flag."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.4 | Your flag must be inside of your base and accessible."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.5 | No building:<br/> 2.5a | Within 850m from spawn locations.<br/> 2.5b | Within 500m of small military (3 tents or less).<br/> 2.5c | Within 1km of large military (4 tents or more).<br/> 2.5d | Inside or around military buildings (police stations, prisons etc).<br/> 2.5e | On roads.<br/> 2.5f | On bridges.<br/> 2.5g | In tunnels."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.6 | No using indestructible objects to block base access.<br/> This includes using containers to line walls so that they are not raidable."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.7 | Your base and loot must be accessible by normal means.<br/> Ie: your base/loot must be reachable without propstacking, climbing, player boosting or dismantling objects."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.8 | Containers must be inside of a base.<br/> Any containers found not inside of a base will be removed. The only exception to this is burried stashes."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.9 | No placing safes inside of walls or other objects."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "2.10 | No over hanging floors/ceilings and no floating bases.<br/> All outer building parts of your base must touch the ground. You cannot have an floating parts of your structure. Your base must not defy the laws of physics."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "Raiding on Hero's Haven is done with explosives. Using other exploits to gain access to a base will result in a ban."
+            }
+        ]
+    },
+    {
+        "CategoryName": "Trader Rules",
+        "Rules": [
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.1 | No stealing.<br/> Do not take items off the floor, from inside of unlocked vehicles or unlocked vehicles their selves."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.2 | No following players out of the trader to kill them."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.3 | No trader camping.<br/> Trader camping is: sitting on the edge of the safe zone waiting for players to leave so as to kill them OR waiting at Black Market with no reason to be there but kill other players.<br/> Trader camping is not: initiating PVP outside of the safe zone."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.4 | No accusing people of trader camping.<br/> You can go to #support and report it there."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.5 | No using megaphones."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.6 | No playing music."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.7 | No trolling other players, name calling or general toxicity."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.8 | No using the safe zone to evade PVP."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.9 | No loitering or going AFK in the traders.<br/>           \"loitering\" is remaining in the trader with no need to be there. If you're waiting for someone or something then you must go elsewhere."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.10 | No stashes, safes or containers of any kind inside of the safe zone."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.11 | No parking vehicles at the trader entrance or next to the traders.<br/> The safe zones are quite large, you should use other spaces to keep your vehicle so that other players are less likely to approach your vehicle when locking/unlocking it."
+            },
+            {
+                "RuleParagraph": "",
+                "RuleText": "3.12 | Do not block access to traders.<br/> This includes blocking doorways with vehicles and locking doors."
+            }
+        ]
+    }
+];

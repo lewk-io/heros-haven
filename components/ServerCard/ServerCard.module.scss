@@ -1,10 +1,55 @@
+@import '../../styles/variables.scss';
+
 .server-card {
+    background-color: #181e22;
+    box-shadow: 0px $size * 0.5 $size rgba(0,0,0,0.4);
+    border-radius: $size;
+    margin: $padding * 0.5;
+    padding: $size * 2 $padding;
+    height: calc(100% - $padding * 0.5);
+
     &-mods {
-        background: red;
-        ul {
-            li {
-                float: left
+        $serverCardMods: &;
+
+        &-title {
+            margin-bottom: $size !important;
+        }
+
+        &-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0 (-$size);
+
+            #{$serverCardMods}__item {
+                font-size: 0.8em;
+                padding: $size * 0.6 $size * 0.4;
+            }
+
+            #{$serverCardMods}__link {
+                border: 1px solid #d9d9d9;
+                border-radius: $size * 0.5;
+                padding: $size * 0.3 $size * 0.6;
+                text-decoration: none;
             }
         }
+    }
+
+    &-title {
+        font-size: 1.6em
+    }
+
+    &-players {
+        font-weight: 600;
+        font-size: 1.4em;
+        text-align: right;
+
+        span {
+            font-size: 0.8em;
+        }
+    }
+
+    hr {
+        margin-top: 0;
     }
 }
