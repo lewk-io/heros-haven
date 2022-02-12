@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import Wrapper from '../components/Page/Wrapper';
 import { rules } from '../constants/rules';
@@ -7,6 +8,9 @@ const ServerRules = () => {
 
 	return <>
 		<Wrapper>
+			<Head>
+				<title>Server Rules &amp; Monetization | Hero&apos;s Haven DayZ</title>
+			</Head>
 			<div className="columns">
 				<div className="column">
 					<h1 className="title is-2">Server Rules</h1>
@@ -14,7 +18,7 @@ const ServerRules = () => {
 						if (i < linesToSkip) return;
 						return <>
 							<h2 className="title is-5">{rule.CategoryName}</h2>
-							{rule.Rules.map(ruleItem => <p dangerouslySetInnerHTML={{ __html: ruleItem.RuleText }}></p>)}
+							{rule.Rules.map((ruleItem, i) => <p key={i} dangerouslySetInnerHTML={{ __html: ruleItem.RuleText }}></p>)}
 						</>
 					})}
 				</div>

@@ -31,7 +31,7 @@ const ServerCard = ({ address, forceName }) => {
                     </div>
                     <div className="column is-3">
                         <div className={styles['server-card-players']}>
-                            <i class="fa-solid fa-user"></i> {players}/{slots} {queue?.active && <sup>(+{queue.size})</sup>}
+                            <i className="fa-solid fa-user"></i> {players}/{slots} {queue?.active && <sup>(+{queue.size})</sup>}
                         </div>
                     </div>
                 </div>

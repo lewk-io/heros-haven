@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Header.module.scss';
 import logo from '../../images/logo.png';
@@ -14,7 +15,7 @@ const Header = () => <>
             <div className="columns is-vcentered is-mobile">
                 <div className="column is-6">
                     <div className={styles['header-logo']}>
-                        <Link href="/"><img src={logo.src} alt="Hero's Haven DayZ" width="60" className={styles['header-logo-image']} /></Link>Hero's Haven DayZ
+                        <Link href="/" passHref><Image src={logo.src} alt="Hero's Haven DayZ" width={60} height={57} className={styles['header-logo-image']} /></Link>Hero&apos;s Haven DayZ
                     </div>
                 </div>
                 <div className="column">
